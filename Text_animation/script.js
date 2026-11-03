@@ -11,6 +11,10 @@ function breakTheText() {
 
   splittedText.forEach(function (elem,idx) {
 
+    if (elem === " ") {
+      clutter += `<span class="word-space"></span>`;
+      return;
+    }
     if(halfvalue > idx){
         clutter += `<span class ="firstName">${elem}</span>`;
     }else{

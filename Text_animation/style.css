@@ -36,3 +36,9 @@ h1 {
 h1 span{
     display: inline-block;
 }
+
+
+h1 .word-space {
+    display: inline-block;
+    width: 0.65em;
+}
